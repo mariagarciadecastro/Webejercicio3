@@ -8,7 +8,10 @@ gem 'rails', '~> 5.2.4', '>= 5.2.4.2'
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3', group: :development
 gem 'pg', group: :production
-
+# Add Foundation to your Rails app 
+gem 'foundation-rails', '>=6.0'
+# Include jQuery js
+gem 'jquery-rails'
 # Use Puma as the app server
 gem 'puma', '~> 3.11'
 # Use SCSS for stylesheets
